@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+:root {
+    /* CSS HEX */
+    --white: #fafafaff;
+    --forest-green-crayola: #4ea46fff;
+    --amazon: #3c7853ff;
+    --tropical-rain-forest: #326e5cff;
+    --black: #020202ff;
+}
+html {
+    height: 100vh;
+    overflow: hidden;
+}
+body {
+    background: url("images/fundal.jpg") !important;
+    background-size: cover !important;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+.scroll-snap {
+    scroll-snap-stop: always;
+    scroll-snap-align: center;
+}
