@@ -1,3 +1,17 @@
+<?php
+    
+    /*
+
+        Website developed by Andrei Frîntu
+        Critical maintenance @ codulluiandrei.ro
+
+        Version:    1.1@2023-inflation:websites-competition
+        Stage:      dev@localhost
+        Contact:    admin@codulluiandrei.ro
+
+    */
+
+?>
 <!DOCTYPE html>
 <html lang="ro">
 <head>
