@@ -40,5 +40,28 @@
         <span class="text-white fs-4 fw-bold m-auto">INFLAȚIA</span>
     </header>
 
+    <div class="container-fluid my-lg-5 invisible">.</div>
+    <div class="container-fluid my-lg-5 invisible">
+        .
+        <div id="despre"></div>
+    </div>
+    <div class="container-fluid p-3 my-5 bg-faded scroll-snap" style="transform: skewY(3deg);">
+        <div class="container fade-in-bottom px-4 py-5" style="transform: skewY(-3deg);">
+            <div id="First" class="bg-light d-flex p-4 pe-lg-0 py-lg-5 align-items-center rounded-3 border shadow-lg">
+                <div class="w-100 p-3 p-lg-5 pt-lg-3 fil">
+                    <h1 class="display-4 fw-bold lh-1 text-amazon">Ce este inflația?</h1>
+                    <p class="lead text-justify">Este procesul de creștere a nivelului general al prețurilor de consum, mecanism care provoacă variații multiple de lungă durată, generalizează el însuși cauzele permanentei sale. Fiind un fenomen deosebit de complex, inflația se poate măsura și ilustra prin utilizarea simultană a mai multor indici și indicatori, fiecare din aceștia evidențiind o anumită fațetă a inflației.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                        <a rel="nofollow" class="w-100" href="#indici-indicatori"><button type="button" class="btn btn-lg coduButton px-4 me-md-2 fw-bold text-white w-100">MĂSURAREA INFLAȚIEI</button></a>
+                    </div>
+                </div>
+
+                <div class="rounded p-0 overflow-hidden shadow-lg fir" style="width: 40%;">
+                    <img loading="lazy" id="FirstImg" src="images/webp/first.webp" alt="" width="750"  height="500">
+                </div>
+            </div>
+        </div>
+    </div>
+    
 </body>
 </html>
