@@ -62,6 +62,45 @@
             </div>
         </div>
     </div>
+
+    <div class="container-fluid my-lg-5 invisible">.</div>
+
+    <div class="container-fluid my-lg-5 invisible">
+        .
+        <div id="indici-indicatori"></div>
+    </div>
+    <div class="container-fluid p-3 my-5 bg-blended scroll-snap" style="transform: skewY(-3deg);">
+        <div class="container Secondfib px-4 py-5" style="transform: skewY(3deg);">
+            <div id="Second" class="bg-light d-flex p-4 ps-lg-0 py-lg-5 align-items-center rounded-3 border shadow-lg">
+                <div class="rounded p-0 overflow-hidden shadow-lg fil" style="width: 40%;">
+                    <img loading="lazy" id="SecondImg" src="images/webp/second.webp" alt="" width="750"  height="500">
+                </div>
+                <div class="w-100 p-3 p-lg-5 pt-lg-3 fir">
+                    <h1 class="display-4 fw-bold lh-1 text-amazon">Măsurarea inflației</h1>
+                    <p class="lead text-justify">
+                        Fiind un fenomen deosebit de complex, inflația se poate măsura și ilustra prin utilizarea simultană a mai multor indici și indicatori, fiecare dintre aceștia evidențiind o anumită fațetă a inflației. Cei mai importanți sunt:
+                        <ul class="lead text-justify">
+                            <li>diferența dintre cererea solvabilă și oferta reală de mărfuri, bunuri și servicii;</li>
+                            <li>indicele general al prețurilor;</li>
+                            <li>indicele prețurilor de consum; <span rel="nofollow" id="ExpandSecond" onclick="ExpandSecond()" class="text-underline lead text-amazon w-50">continuare...</span></li>
+                        </ul>
+                        <div id="SecondMin" class="d-none">
+                            <ul class="lead text-justify mt-0">
+                                <li>indicele costului vieții;</li>
+                                <li>scăderea puterii de cumpărare a banilor pe piața internă și cea externă;</li>
+                                <li>depășirea de către masa monetară în circulație a produsului național.</li>
+                            </ul>
+                            <p class="lead text-justify">Exprimarea absolută a inflației se determină ca diferența dintre cererea absolută nominală și cantitatea reală de bunuri și servicii pe care le pot oferi spre vânzare agenții economici. <span rel="nofollow" id="MinSecond" onclick="MinSecond()" class="text-underline lead text-amazon w-50 d-none">închide...</span></p>
+                        </div>
+                    </p>
+
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                        <a rel="nofollow" class="w-100" href="#cauze"><button type="button" class="btn btn-lg coduButton px-4 me-md-2 fw-bold text-white w-100">CAUZELE DECLANSĂRII INFLAȚIEI</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     
 </body>
 </html>
