@@ -101,6 +101,45 @@
             </div>
         </div>
     </div>
+
+    <div class="container-fluid my-lg-5 invisible">.</div>
+
+    <div class="container-fluid my-lg-5 invisible">
+        .
+        <div id="cauze"></div>
+    </div>
+    <div class="container-fluid p-3 my-5 bg-faded scroll-snap" style="transform: skewY(3deg);">
+        <div class="container Thridfib px-4 py-5" style="transform: skewY(-3deg);">
+            <div id="Thrid" class="bg-light d-flex p-4 pe-lg-0 py-lg-5 align-items-center rounded-3 border shadow-lg">
+                <div class="w-100 p-3 p-lg-5 pt-lg-3 fil">
+                    <h1 class="display-4 fw-bold lh-1 text-amazon">Cauzele declansării inflației</h1>
+                    <p class="lead text-justify">
+                        Indeferent de cauza declanșării inflației, desfășurarea, perpetuarea și agravarea ei are determinări multifactoriale. În condițiile economiei actuale, inflația are la bază factori de ordin economic, monetar socio-politic, de natură internă și externă care acționează simultan și se influențează reciproc.
+                        <ul class="lead text-justify">
+                            <li>Inflația monetară - se datorează introducerii și menținerii în circulație a unei mase monetare excedentare raportată la cantitatea de bunuri și servicii de pe piață. <span rel="nofollow" id="ExpandThrid" onclick="ExpandThrid()" class="text-underline lead text-amazon w-50">continuare...</span></li>
+                        </ul>
+                        <div id="ThridMin" class="d-none">
+                            <ul class="lead text-justify">
+                                <li>Inflația prin cerere - este un fenomen de creștere a prețului provocată de o situație de dezechilibru într-o cerere agregată solvabilă prea mare în raport cu oferta agregată la un anumit preț. În condiții normale, excesul de cerere stimulează mărirea producției. Dacă însă creșterea volumului cererii nu este determinată de o creștere corespunzătoare a producției, a ofertei, prețurile cresc și se manifestă fenomenul inflaționist.</li>
+                                <li>Excesul cererii de consum - cererea de consum a populației poate constitui uneori factorul principal al inflației. Creșterea cererii de consum a populației poate să provină dintr-o utilizare excesivă a economiilor bănești. Ea poate avea ca sursă și creșterea excesivă a salariilor fără o creștere corespunzătoare a producției sau a productivității muncii. O altă cauză a inflației prin cerere este excesul cererii guvernamentale peste posibilitățile bugetare curente.</li>
+                                <ul>
+                                    <li>Inflația prin ofertă - dezechilibrul inflaționist dintre cerere și ofertă este explicat adeseori prin insuficiența ofertei, prin deficitul de bunuri materiale și servicii pe piață.</li>
+                                    <li>Inflația prin costuri - exprimă acea creștere inflaționistă a prețurilor datorată creșterii elementelor ce intră în prețuri (materii prime, salarii, beneficii). <span rel="nofollow" id="MinThrid" onclick="MinThrid()" class="text-underline lead text-amazon w-50 d-none">închide...</span></li>
+                                </ul>
+                            </ul>
+                        </div>
+                    </p>
+                    
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                        <a rel="nofollow" class="w-100" href="#consecinte"><button type="button" class="btn btn-lg coduButton px-4 me-md-2 fw-bold text-white w-100">CONSECINȚELE INFLAȚIEI</button></a>
+                    </div>
+                </div>
+                <div class="rounded p-0 overflow-hidden shadow-lg fir" style="width: 40%;">
+                    <img loading="lazy" id="ThridImg" src="images/webp/thrid.webp" alt="" width="750"  height="500">
+                </div>
+            </div>
+        </div>
+    </div>
     
 </body>
 </html>
