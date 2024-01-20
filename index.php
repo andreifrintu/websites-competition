@@ -140,6 +140,47 @@
             </div>
         </div>
     </div>
+
+    <div class="container-fluid my-lg-5 invisible">.</div>
+
+    <div class="container-fluid my-lg-5 invisible">
+        .
+        <div id="consecinte"></div>
+    </div>
+    <div class="container-fluid p-3 my-5 bg-blended scroll-snap" style="transform: skewY(-3deg);">
+        <div class="container Fourthfib px-4 py-5" style="transform: skewY(3deg);">
+            <div id="Fourth" class="bg-light d-flex p-4 ps-lg-0 py-lg-5 align-items-center rounded-3 border shadow-lg">
+                <div class="rounded p-0 overflow-hidden shadow-lg fil" style="width: 40%;">
+                    <img loading="lazy" style="margin-left: -75%;" id="FourthImg" src="images/webp/fourth.webp" alt="" width="750"  height="500">
+                </div>
+                <div class="w-100 p-3 p-lg-5 pt-lg-3 fir">
+                    <h1 class="display-4 fw-bold lh-1 text-amazon">Consecințele inflației</h1>
+                    <p class="lead text-justify">
+                        Sunt exprimate prin prisma deprecierii monetare:
+                        <ul class="lead text-justify">
+                            <li>consecințele inflației sunt recepționate în primul rând de agenții economici cumpărători;</li>
+                            <li>sub incidența inflației scad economiile agenților economici diminuându-se resursele datorită scăderii puterii de cumpărare a banilor;</li>
+                            <li>inflația îi dezavantajează pe creditori;</li>
+                            <li>în timpul inflației producția scade; <span rel="nofollow" id="ExpandFourth" onclick="ExpandFourth()" class="text-underline lead text-amazon w-50">continuare...</span></li>
+                        </ul>
+                        <div id="FourthMin" class="d-none">
+                            <ul class="lead text-justify">
+                                <li>inflația elimină o parte din resursele acumulate;</li>
+                                <li>inflația consituie un factor dezorganizator al oricărei economii naționale;</li>
+                                <li>descurajează investițiile productive, de lungă durată;</li>
+                                <li>generează și extinde șomajul;</li>
+                                <li>accentuează deprecierea monedei naționale. <span rel="nofollow" id="MinFourth" onclick="MinFourth()" class="text-underline lead text-amazon w-50 d-none">închide...</span></li>
+                            </ul>
+                        </div>
+                    </p>
+
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                        <a rel="nofollow" class="w-100" href="#combatere"><button type="button" class="btn btn-lg coduButton px-4 me-md-2 fw-bold text-white w-100">COMBATEREA INFLAȚIEI</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     
 </body>
 </html>
