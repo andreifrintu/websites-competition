@@ -181,6 +181,32 @@
             </div>
         </div>
     </div>
+
+    <div class="container-fluid my-lg-5 invisible">.</div>
+
+    <div class="container-fluid my-lg-5 invisible">
+        .
+        <div id="combatere"></div>
+    </div>
+    <div class="container-fluid p-3 my-5 bg-faded scroll-snap" style="transform: skewY(3deg);">
+        <div class="container Fifthfib px-4 py-5" style="transform: skewY(-3deg);">
+            <div id="Fifth" class="bg-light d-flex p-4 pe-lg-0 py-lg-5 align-items-center rounded-3 border shadow-lg">
+                <div class="w-100 p-3 p-lg-5 pt-lg-3 fil">
+                    <h1 class="display-4 fw-bold lh-1 text-amazon">Combaterea inflației</h1>
+                    <p class="lead text-justify">
+                        Pentru combaterea inflației factorii de decizie trebuie să aibă în atenție frânarea creșterii masei monetare și a prețurilor, atragerea economiilor bănești și transformarea lor în capitaluri active, revalorizarea banilor, refacerea cererii agregate, reducerea incertitudinilor. Succesul presupune înglobarea unor astfel de măsuri în pachete care să se completeze cât mai bine pe termen mediu și lung.
+                    </p>
+
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+                        <a rel="nofollow" class="w-100" href="#top"><button type="button" class="btn btn-lg coduButton px-4 me-md-2 fw-bold text-white w-100">ÎNAPOI</button></a>
+                    </div>
+                </div>
+                <div class="rounded p-0 overflow-hidden shadow-lg fir" style="width: 40%;">
+                    <img loading="lazy" style="margin-left: -50%;" id="FifthImg" src="images/webp/fifth.webp" alt="" width="750"  height="500">
+                </div>
+            </div>
+        </div>
+    </div>
     
 </body>
 </html>
