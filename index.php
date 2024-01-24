@@ -207,6 +207,33 @@
             </div>
         </div>
     </div>
+
+    <div class="container-fluid my-lg-5 invisible">.</div>
+
+    <div class="container-fluid my-lg-5 invisible">
+        .
+        <div id="contact"></div>
+    </div>
+    <div class="container-fluid p-3 my-5 bg-blended scroll-snap" style="transform: skewY(-3deg);">
+        <div class="container Sixthfib px-4 py-5" style="transform: skewY(3deg);">
+            <div id="Sixth" class="bg-light d-flex p-4 ps-lg-0 py-lg-5 align-items-center rounded-3 border shadow-lg">
+                <div class="rounded p-0 overflow-hidden shadow-lg fil" style="width: 40%;">
+                    <img loading="lazy" id="SixthImg" src="images/frintu.webp" alt="" height="500" style="transform: scale(1.25);">
+                </div>
+                <div class="w-100 p-3 p-lg-5 pt-lg-3 fir">
+                    <h1 class="display-4 fw-bold lh-1 text-amazon">Contact</h1>
+                    <p class="lead text-justify fs-4">Mă numesc <span class="fw-bold text-amazon">Frîntu Andrei</span> și sunt pasionat de dezvoltarea website-urilor. Studiez la <span class="fw-bold text-amazon">Colegiul Național Tudor Vladimirescu</span> din Târgu Jiu, în clasa a IX-a C. Această pagină a fost realizată pentru concursul <span class="fw-bold text-amazon">Istorie și Societate în Dimensiunea Virtuală</span>, profesor coordonator <span class="fw-bold text-amazon">Dabelea Oana Daciana</span>.</p>
+                    <div class="d-flex justify-content-center align-items-center gap-3 mt-2 flex-row">
+                        <a rel="nofollow" aria-hidden="true" target="_blank" class="social" href="https://codulluiandrei.ro/"><img loading="lazy" src="images/icons/icons8-website-96.png" style="width: 64px !important; height: 64px !important;" alt=""></a>
+                        <a rel="nofollow" aria-hidden="true" target="_blank" class="social" href="https://facebook.com/frintu.andrei07"><img loading="lazy" src="images/icons/icons8-facebook-96.png" style="width: 64px !important; height: 64px !important;" alt=""></a>
+                        <a rel="nofollow" aria-hidden="true" target="_blank" class="social" href="https://instagram.com/andrei_frintu"><img loading="lazy" src="images/icons/icons8-instagram-96.png" style="width: 64px !important; height: 64px !important;" alt=""></a>
+                        <a rel="nofollow" aria-hidden="true" target="_blank" class="social" href="https://github.com/andreifrintu"><img loading="lazy" src="images/icons/icons8-github-96.png" style="width: 64px !important; height: 64px !important;" alt=""></a>
+                        <a rel="nofollow" aria-hidden="true" target="_blank" class="social" href="mailto:frintu.andrei07@gmail.com"><img loading="lazy" src="images/icons/icons8-mail-96.png" style="width: 64px !important; height: 64px !important;" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     
 </body>
 </html>
