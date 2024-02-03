@@ -1,0 +1,56 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --black: #06070eff;
+    --accent: #478469;
+    --soft: #47846930;
+}
+
+* {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+
+.vh-100 {
+    min-height: 100vh;
+}
+.bg-dark-blue {
+    background: var(--black) !important;
+}
+.bg-hero {
+    background: url(/static/images/hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.backdrop-blur {
+    backdrop-filter: blur(20px);
+}
+.nav-link {
+    color: var(--accent) !important;
+}
+.nav-pills {
+    z-index: 999 !important;
+}
+.active {
+    background-color: var(--soft) !important;
+}
+
+.flame-glow {
+    position: absolute;
+    border-radius: 50%; 
+    background-color: rgba(71, 132, 105, 0.9);
+    -webkit-filter: blur(175px);
+    filter: blur(175px);
+    opacity: 80%;
+    z-index: 888 !important;
+}
+.flame-glow-500-center {
+    width: 500px;
+    height: 200px;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+}
