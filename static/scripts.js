@@ -3,7 +3,7 @@ $(document).ready(function() {
     function checkScrollPosition() {
         var scrollPosition = $(window).scrollTop();
         var viewportHeight = $(window).height();
-        var midViewport = viewportHeight / 2;
+        var midViewport = viewportHeight / 1.50;
 
         if (scrollPosition > midViewport)
             $('.navbar').addClass('backdrop-blur');
