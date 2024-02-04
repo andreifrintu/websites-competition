@@ -13,6 +13,21 @@
     font-weight: 500;
     transition: .2s;
 }
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    transform: transition .7s;
+    background: var(--accent-full);
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    transform: transition .7s;
+    background: var(--accent);
+}
 
 .vh-100 {
     min-height: 1080px;
