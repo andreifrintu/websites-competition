@@ -102,4 +102,16 @@
       background-repeat: round;
       background-position: 0em;
     }
-  }
+}
+.td-figure {
+    perspective: 1500px;
+}
+.td-figure img {
+    transform: rotateX(10deg) rotateY(-18deg) rotateZ(3deg);
+    border-radius: 0.375em;
+    box-shadow: 2px 10px 30px var(--soft);
+    transition: .3s;
+}
+.td-figure:hover img {
+    transform: rotate(0);
+}
