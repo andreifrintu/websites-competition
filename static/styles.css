@@ -13,6 +13,17 @@
     font-weight: 500;
     transition: .2s;
 }
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 900 !important;
+}
+b {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 900 !important;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: var(--accent-full);
+}
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -146,4 +157,14 @@
 }
 .td-figure:hover img {
     transform: rotate(0);
+}
+
+.bullet::before {
+    content: "";
+    position: absolute;
+    margin-left: -15px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, var(--accent) 0%, var(--accent-full) 85%) !important;
 }
