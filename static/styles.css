@@ -123,6 +123,18 @@ b {
     top: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
+.flame-glow-25-right {
+    width: 150px !important;
+    height: 150px;
+    right: 15%;
+    filter: blur(50px) !important;
+}
+.flame-glow-25-left {
+    width: 150px !important;
+    height: 150px;
+    left: 15%;
+    filter: blur(50px) !important;
+}
 
 .fancy {
     text-transform: uppercase;
