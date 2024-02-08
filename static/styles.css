@@ -13,6 +13,10 @@
     font-weight: 500;
     transition: .2s;
 }
+::selection {
+    background: var(--accent);
+    color: white;
+}
 h1 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 900 !important;
