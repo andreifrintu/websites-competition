@@ -120,6 +120,34 @@ b {
     left: 50%;
     transform: translateX(-50%);
 }
+.flame-glow-500-left {
+    z-index: -888 !important;
+    width: 500px;
+    height: 500px;
+    top: 250px;
+    left: -25px;
+}
+.flame-glow-500-right {
+    z-index: -888 !important;
+    width: 500px;
+    height: 500px;
+    top: 850px;
+    right: -25px;
+}
+.flame-glow-500-low-left {
+    z-index: -888 !important;
+    width: 500px;
+    height: 500px;
+    top: 1650px;
+    left: -25px;
+}
+.flame-glow-500-low-right {
+    z-index: -888 !important;
+    width: 500px;
+    height: 500px;
+    top: 2350px;
+    right: -25px;
+}
 .flame-glow-250-center {
     width: 400px;
     height: 500px;
