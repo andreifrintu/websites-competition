@@ -77,6 +77,7 @@ b {
     text-align: justify !important;
 }
 .text-accent {
+    text-decoration-color: white;
     color: var(--accent);
 }
 .text-low-white {
