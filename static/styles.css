@@ -14,8 +14,8 @@
     transition: .2s;
 }
 ::selection {
-    background: var(--accent);
-    color: white;
+    background: var(--accent) !important;
+    color: white !important;
 }
 h1 {
     font-family: 'Work Sans', sans-serif;

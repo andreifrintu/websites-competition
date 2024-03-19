@@ -2,7 +2,6 @@ var fullURL = new URL(document.currentScript.src);
 var paramsURL = fullURL.searchParams;
 var page = paramsURL.get('page');
 
-
 if (page != 'quiz') {
     $(document).ready(function() {
 
@@ -23,5 +22,22 @@ if (page != 'quiz') {
 
         checkScrollPosition();
     });
-    console.log("test")
+}
+else {
+    function Answer(id) {
+        if (id == 1) {
+            $('#varianta-corecta').removeClass('btn-secondary');
+            $('#varianta-corecta').addClass('btn-success');
+            $('#continuare').removeClass('d-none');
+            $('#continuare').addClass('d-block');
+        }
+        else if (id == 2) {
+            $('#varianta-gresita-2').removeClass('btn-secondary');
+            $('#varianta-gresita-2').addClass('btn-danger');
+        }
+        else {
+            $('#varianta-gresita-3').removeClass('btn-secondary');
+            $('#varianta-gresita-3').addClass('btn-danger');
+        }
+    }
 }
