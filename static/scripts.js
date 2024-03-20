@@ -64,7 +64,8 @@ else {
             $('#continuare').removeClass('d-block');
             $('#continuare').addClass('d-none');
         } else if (counter == 5) {
-            // set congratulations message image on screen
+            $('#congrats').removeClass('d-none');
+            $('#congrats').addClass('d-block');
         }
     }
 }

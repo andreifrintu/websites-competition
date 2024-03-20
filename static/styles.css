@@ -71,14 +71,22 @@ b {
     background: var(--black) !important;
 }
 .bg-hero {
-    background: url(/static/images/hero-bg.png);
+    background: url(images/hero-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .bg-quiz {
     position: relative;
-    background: url(/static/images/quiz-bg.png);
+    background: url(images/quiz-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.9);
+    overflow: hidden;
+}
+.bg-congrats {
+    background: url(images/congrats-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
